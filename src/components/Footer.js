@@ -2,7 +2,7 @@
 import Carousel from './Carousel';
 
 
-function Main() {
+function Footer() {
 
     return (
         <>
@@ -12,4 +12,4 @@ function Main() {
 
 
 }
-export default Main;
+export default Footer;

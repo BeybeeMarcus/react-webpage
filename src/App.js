@@ -1,9 +1,9 @@
 import './App.css';
 import Header from './components/Header';  
-import Main from './components/Main';  
+import Footer from './components/Footer';  
 
 import { Routes, Route } from 'react-router-dom'
-import About from './pages/About'
+import Link from './pages/Link'
 
 
 function App() {
@@ -11,10 +11,11 @@ function App() {
     <>
     <Header/>
       <Routes>
-        <Route path="/about" element={<About />}/>
+        <Route path="/" element={<Main />}/>
+        <Route path="/link" element={<Link />}/>
       </Routes>
 
-    <Main/>
+    <Footer/>
     
     
     </>

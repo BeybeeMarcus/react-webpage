@@ -1,5 +1,5 @@
 
-import Carousel from './components/Carousel';
+import Carousel from './Carousel';
 
 
 function Main() {
@@ -7,7 +7,7 @@ function Main() {
     return (
         <>
             <Carousel/>
-        </>
+        </> 
     )
 
 

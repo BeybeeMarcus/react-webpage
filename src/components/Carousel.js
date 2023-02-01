@@ -1,7 +1,7 @@
 
 
 function Carousel () {
-    return(
+    return( 
         <>
             <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
